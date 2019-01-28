@@ -13,6 +13,7 @@ typedef struct sObject {
 	ObjectType type;
 	unsigned char marked;
 
+
 	struct sObject* next;
 
 	union {
